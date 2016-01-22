@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'techable',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -109,5 +110,5 @@ STATICFILES_DIRS = (
 )
 
 
-#STATIC_URL = '/static/'
-STATIC_URL = '/Users/vishnuvardhansarma/webDevelopment/mysite/techable/static/sparkling/'
+STATIC_URL = '/static/'
+#STATIC_URL = '/Users/vishnuvardhansarma/webDevelopment/mysite/techable/static/sparkling/'
